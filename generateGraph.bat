@@ -1,2 +1,2 @@
 @echo off
-dot -Tpng ast.dot > ast.png
+dot -Grankdir=TB -Tpng ast.dot > ast.png

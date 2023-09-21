@@ -11,9 +11,9 @@ import java.io.PrintWriter;
 public class Main {
     public static void main(final String[] args) {
         // language=java
-        final CompilationUnit cu = StaticJavaParser.parse("""
-                public class AstExample {
-                    public static int identity(final int a) {
+        CompilationUnit cu = StaticJavaParser.parse("""
+                class AstExample {
+                    static int identity(int a) {
                         return a; 
                     }
                 }
